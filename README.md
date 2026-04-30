@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Democracy Engine 🇮🇳
 
-## Getting Started
+Democracy Engine is an immersive, interactive educational platform designed to simplify and explain the vast and complex Indian electoral system. Built as a sleek, modular web experience, it breaks down how democracy functions from the grassroots village level all the way to the central government.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Interactive Election Modules:** 
+  - **Lok Sabha (Central Govt):** Understand how 543 constituencies vote to elect the Prime Minister.
+  - **Vidhan Sabha (State Govt):** Learn how MLAs are chosen to run state affairs and appoint Chief Ministers.
+  - **Panchayat (Village Govt):** See how local self-government works right at the grassroots level through Sarpanch elections.
+- **Fact Guard Mini-Game:** An interactive, WhatsApp-style mini-game designed to teach digital literacy and help users identify electoral misinformation and "fake news".
+- **Ultra-Clean, Tactile UX:** Designed with an "Apple-esque" dark mode, featuring glassmorphism, buttery-smooth Framer Motion animations, and a distraction-free split-screen layout.
+- **Multilingual Support:** Seamlessly integrated Google Translate customized to look completely native to the app, offering support for major Indian regional languages (Hindi, Punjabi, Bengali, Telugu, Marathi, and more).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Language:** TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd election
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Explore the app:**
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is open-source and available under the MIT License.
